@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 const ProductImage = ({ images }: { images: string[] }) => {
   const [current, setCurrent] = useState(0);
   return (
-    <div className="">
+    <div className="space-y-4">
       <Image
         src={images[current]}
         alt="product-image"
