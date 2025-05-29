@@ -1,13 +1,13 @@
 import { Button } from "@/components/ui/button";
-import ModeToggle from "./ModeToggle";
-import Link from "next/link";
-import { EllipsisVerticalIcon, ShoppingCart, UserIcon } from "lucide-react";
 import {
   Sheet,
   SheetContent,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { EllipsisVerticalIcon, ShoppingCart } from "lucide-react";
+import Link from "next/link";
+import ModeToggle from "./ModeToggle";
 import UserButton from "./user-button";
 
 const Menu = () => {
